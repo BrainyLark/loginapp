@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Lab04</string>
+
+    <string name="unameText">Хэрэглэгчийн нэр: </string>
+    <string name="passText">Нууц үг: </string>
+    <string name="unameHolder">Хэрэглэгчийн нэрээ оруулна уу...</string>
+    <string name="passHolder">Нууц үгээ оруулна уу...</string>
+
+    <string name="signupBtn">Бүртгүүлэх</string>
+    <string name="loginBtn">Нэвтрэх</string>
+
+    <string name="repeatPassText">Нууц үгээ давт: </string>
+    <string name="repeatPassHolder">***********</string>
+    <string name="dateText">Төрсөн огноо: </string>
+    <string name="dateHolder">YYYY-MM-DD</string>
+    <string name="genderText">Хүйс: </string>
+    <string name="maleText">Эрэгтэй</string>
+    <string name="femaleText">Эмэгтэй</string>
+    <string name="ageText">Нас: </string>
+    <string name="numberText">Утасны дугаар: </string>
+    <string name="numberHolder">+777-9999-9999</string>
+    <string name="ageField">18</string>
+
+    <string name="saveBtn">Хадгалах</string>
+    <string name="returnBtn">Буцах</string>
+    <string name="contentDescription">SEAS LOGO</string>
+
+    <string name="changeInfo">Мэдээлэл өөрчлөх</string>
+    <string name="changePass">Нууц үг өөрчлөх</string>
+    <string name="closeActivity">Цонхыг хаах</string>
+
+    <string name="previousPassword">Хуучин нууц үг: </string>
+    <string name="newPassword">Шинэ нууц үг: </string>
+    <string name="repeatNewPassword">Шинэ нууц үгээ давтах: </string>
+    <string name="updatePassword">Нууц үг хадгалах</string>
+
+    <string name="prevPassHolder">Хуучин нууц үгээ оруулна уу...</string>
+    <string name="newPassHolder">Шинэ нууц үгээ оруулна уу...</string>
+    <string name="repPassHolder">Шинэ нууц үгээ дахин оруулна уу...</string>
+
+    <string name="menuItem1">Гарах</string>
+
+</resources>

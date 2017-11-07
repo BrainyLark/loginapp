@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.archer.lab04">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <provider android:name=".UserProvider"
+            android:authorities="com.archer.Lab04.UserProvider"
+            />
+
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SignUp"
+            android:label="Sign Up">
+            <intent-filter>
+                <action android:name="android.intent.action.SIGNUP" />
+
+                <category android:name="android.intent.category.SIGNUP" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".UserInfo"
+            android:label="User Info">
+            <intent-filter>
+                <action android:name="andoid.intent.action.USERINFO" />
+
+                <category android:name="android.intent.category.USERINFO" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ChangePassword"
+            android:label="Change Password">
+            <intent-filter>
+                <action android:name="android.intent.action.CHANGEPASS"/>
+                <category android:name="android.intent.category.CHANGEPASS"/>
+            </intent-filter>
+
+        </activity>
+    </application>
+
+</manifest>
